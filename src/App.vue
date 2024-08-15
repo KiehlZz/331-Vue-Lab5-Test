@@ -24,7 +24,7 @@ if (route.query.pageSize) {
 </script>
 
 <template>
-  <SpeedInsights/>
+  <SpeedInsights />
   <div class="text-center font-sans text-gray-700 antialias">
     <header>
       <div id="flashMessage" class="animate-fade" v-if="message">
