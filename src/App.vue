@@ -5,6 +5,7 @@ import { storeToRefs } from 'pinia';
 const store = useMessageStore()
 const { message } = storeToRefs(store)
 import { ref } from 'vue'
+import { SpeedInsights } from "@vercel/speed-insights/vue"
 
 const pageSizes = [1, 2, 4, 6, 8, 10]
 const pageSize = ref(pageSizes[1])
